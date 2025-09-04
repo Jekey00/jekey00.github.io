@@ -1,0 +1,119 @@
+.head {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    height: 106px;
+}
+
+#logo img {
+    height: 148px;
+    width: 148px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Diagonale Menüleiste */
+.menu {
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 15px;
+    color: #f0f0f0;
+    font-size: large;
+}
+
+/* Menübuttons */
+.menu span {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 4px 4px 10px var(--shadow-dark),
+        inset 0 2px 6px rgba(255, 255, 255, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+
+}
+
+/*Dark-mode Menüband linke seite, nur Icons*/
+body.dark-mode .menu span {
+    box-shadow: 4px 4px 10px var(--shadow-dark),
+        -4px -4px 10px var(--shadow-light),
+        inset 0 2px 6px rgba(255, 255, 255, 0.35);
+}
+
+a {
+    display: flex;
+    /* Icons untereinander*/
+    align-items: center;
+    gap: 10px;
+    /*Abstand zwischen Icon&Link*/
+    text-decoration: none;
+    margin-bottom: 16px;
+    line-height: 5;
+    /*Abstand zwischen den Icons*/
+
+}
+
+/*Menü Links hervorheben und einblenden*/
+.menu a:hover {
+    color: white;
+    visibility: visible;
+
+}
+
+/*Menü Icons hervorheben*/
+.menu span:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    /* Abstand zwischen den Profilen */
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-card h3 {
+    margin: 10px 0 5px;
+}
+
+.profile-card p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
