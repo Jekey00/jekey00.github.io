@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Landing.css">
+    <title>Justyn Kuhne</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kuhne Justyn</h1>
+
+        <!--Navigationsleiste mit Links-->
+        <nav>
+            <ul>
+                <li><a class="navlink" id="darkModeToggle">Dark Mode</a></li>
+                <li><a class="navlink" href="Lebenslauf_09_25.pdf">Lebenslauf</a></li>
+                <li><a class="navlink" href="https://www.linkedin.com/in/justyn-kuhne-29a959225/" target="_blank">Linked In</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="card-container">
+        <div class="card" id="flipcard">
+            <div class="front">
+                <img src="Lebenslauf_Front.jpg" alt="Lebenslauf_Front" height="600px" width="424px">
+            </div>
+            <div class="back">
+                <img src="Lebenslauf_Back.jpg" alt="Lebenslauf_Back" height="600px" width="424px">
+            </div>
+        </div>
+    </div>
+    <!--Scipt für den Dark-Mode-->
+    <script>
+        const a = document.getElementById("darkModeToggle");
+        a.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+    <!--Script für die Flipcard-->
+    <script>
+        const card = document.getElementById("flipcard");
+
+        card.addEventListener("click", function () {
+            card.classList.toggle("flipped");
+        });
+    </script>
+
+</body>
+
+</html>
