@@ -223,12 +223,11 @@ body.dark-mode .back {
 
 nav ul {
     display: grid;
-    justify-items: center; 
-    row-gap: 8px;         
+    justify-items: center;        
     grid-template-columns: repeat(3, auto);
     list-style: none;
     padding: 0;
-    column-gap: 8px;
+    margin: 0;
 }
 
 /* Pyramidenform*/
@@ -241,18 +240,6 @@ nav ul li:nth-child(2) {
     justify-self: center;
 }
 nav ul li:nth-child(3) {
-    grid-column: 2 / 3;
-    justify-self: center;
-}
-nav ul li:nth-child(4) {
-    grid-column: 1 / 2;
-    justify-self: center;
-}
-nav ul li:nth-child(5) {
-    grid-column: 2 / 3;
-    justify-self: center;
-}
-nav ul li:nth-child(6) {
     grid-column: 3 / 4;
     justify-self: center;
 }
@@ -315,6 +302,7 @@ nav ul li {
     }
 
     
+
 
 
 
