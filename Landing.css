@@ -240,6 +240,10 @@ nav ul li:nth-child(2) {
 nav ul li:nth-child(3) {
     grid-column: 2 / 4;
 }
+        nav ul li {
+        grid-column: auto; 
+    }
+
     
     .navlink {
         font-size: 16px;
@@ -294,6 +298,7 @@ nav ul li:nth-child(3) {
     }
 
     
+
 
 
 
