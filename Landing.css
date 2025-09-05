@@ -224,10 +224,11 @@ body.dark-mode .back {
 nav ul {
     display: grid;
     justify-items: center; 
-    row-gap: 6px;         
+    row-gap: 8px;         
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
     list-style: none;
     padding: 0;
+    column-gap: 5px;
 }
 
 /* Pyramidenform*/
@@ -308,6 +309,7 @@ nav ul li {
     }
 
     
+
 
 
 
