@@ -246,6 +246,17 @@ body.dark-mode .back {
     .search-container {
         max-width: 90%;
     }
+    
+    .card {
+        max-width: 95vw;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Kleine Phones (<480px) */
@@ -265,11 +276,12 @@ body.dark-mode .back {
 
     .card {
         max-width: 95vw;
-        height: 150px;
+        padding: 0.5rem;
+        margin-top: 1rem;
     }
 
     .card img {
-        width: 100%;       /* Bild skaliert immer mit Karte */
+        width: 100%;
         height: auto;
     }
 
@@ -277,6 +289,7 @@ body.dark-mode .back {
         width: 95%;
         aspect-ratio: 16 / 9;
     }
+
 
 
 
