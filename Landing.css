@@ -252,8 +252,7 @@ body.dark-mode .back {
     .card {
         max-width: 95vw;
         padding: 0.5rem;
-        margin-top: 1rem;
-        height: auto;
+        margin-top: 2rem;
     }
 
     .card img {
@@ -290,6 +289,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
