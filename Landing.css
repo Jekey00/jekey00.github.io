@@ -229,12 +229,11 @@ body.dark-mode .back {
         gap: 8px;
     }
 
-    ul {
-        flex-direction: column;
-        gap: 8px;
-        justify-content: center;
-        grid-template-columms: repeat(auto-fit, minmax(120px, 2fr));
-    }
+   ul {
+    display: flex;          
+    flex-direction: column; 
+    gap: 8px;               
+}
 
 
     .navlink {
@@ -291,6 +290,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
