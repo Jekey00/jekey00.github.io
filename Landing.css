@@ -239,6 +239,16 @@ nav ul li:nth-child(2) {
 }
 nav ul li:nth-child(3) {
     grid-column: 3 / 4;
+}
+nav ul li:nth-child(4) {
+    grid-column: 1 / 2;
+}
+nav ul li:nth-child(5) {
+    grid-column: 2 / 3;
+}
+nav ul li:nth-child(6) {
+    grid-column: 3 / 4;
+}
     
 nav ul li {
     grid-column: auto; 
@@ -298,6 +308,7 @@ nav ul li {
     }
 
     
+
 
 
 
