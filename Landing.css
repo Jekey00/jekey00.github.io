@@ -224,7 +224,7 @@ body.dark-mode .back {
 nav ul {
     display: grid;
     justify-items: center;        
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(6, auto);
     list-style: none;
     padding: 0;
     margin: 0;
@@ -302,6 +302,7 @@ nav ul li {
     }
 
     
+
 
 
 
