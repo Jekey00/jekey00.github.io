@@ -166,8 +166,8 @@ body.dark-mode .back {
 
 .card {
     position: center;
-    width: 429px;
-    height: 605px;
+    width: 535px;
+    height: 755px;
     transform-style: preserve-3d;
     transition: 0.6s;
     cursor: pointer;
@@ -272,4 +272,5 @@ body.dark-mode .back {
         width: 95%;
         aspect-ratio: 16 / 9;
     }
+
 }
