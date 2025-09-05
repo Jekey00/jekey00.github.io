@@ -225,12 +225,12 @@ body.dark-mode .back {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
         justify-content: center;
     }
 
@@ -263,6 +263,7 @@ body.dark-mode .back {
 @media (max-width: 480px) {
     h1 {
         font-size: 22px;
+        color: white
     }
 
     ul {
@@ -285,10 +286,8 @@ body.dark-mode .back {
         height: auto;
     }
 
-    iframe {
-        width: 95%;
-        aspect-ratio: 16 / 9;
-    }
+    
+
 
 
 
