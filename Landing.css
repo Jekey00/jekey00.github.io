@@ -268,10 +268,16 @@ body.dark-mode .back {
         height: 150px;
     }
 
+    .card img {
+        width: 100%;       /* Bild skaliert immer mit Karte */
+        height: auto;
+    }
+
     iframe {
         width: 95%;
         aspect-ratio: 16 / 9;
     }
+
 
 
 
