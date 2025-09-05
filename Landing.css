@@ -225,10 +225,10 @@ nav ul {
     display: grid;
     justify-items: center; 
     row-gap: 8px;         
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(2, auto);
     list-style: none;
     padding: 0;
-    column-gap: 5px;
+    column-gap: 8px;
 }
 
 /* Pyramidenform*/
@@ -309,6 +309,7 @@ nav ul li {
     }
 
     
+
 
 
 
