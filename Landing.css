@@ -233,7 +233,9 @@ body.dark-mode .back {
         flex-direction: column;
         gap: 8px;
         justify-content: center;
+        grid-template-columms: repeat(auto-fit, minmax(120px, 2fr));
     }
+
 
     .navlink {
         font-size: 16px;
@@ -288,6 +290,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
