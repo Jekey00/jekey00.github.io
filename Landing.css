@@ -248,7 +248,7 @@ body.dark-mode .back {
     }
 }
 
-/* Kleine Smartphones (<480px) */
+/* Kleine Phones (<480px) */
 @media (max-width: 480px) {
     h1 {
         font-size: 22px;
@@ -265,7 +265,7 @@ body.dark-mode .back {
 
     .card {
         max-width: 95vw;
-        height: auto;
+        height: 150px;
     }
 
     iframe {
@@ -273,19 +273,6 @@ body.dark-mode .back {
         aspect-ratio: 16 / 9;
     }
 
-}
-/*angepasste Bildgröße*/
-@media (max-width: 768px) {
-  img {
-    width: 100%;  
-  }
-}
 
-@media (max-width: 480px) {
-  img {
-    width: 100%;
-    max-width: 300px;  
-  }
-}
 
 
