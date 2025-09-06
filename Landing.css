@@ -241,7 +241,7 @@ body.dark-mode .back {
     max-width: 95vw;
     padding: 0.2rem;      
     margin-top: 0.5rem;
-    display: inline-block;       
+    display: inline-flex;       
     justify-content: center;
     align-items: center;    
     border-radius: 0.5rem;   
@@ -249,7 +249,8 @@ body.dark-mode .back {
 
 .card img {
     width: 100%;          
-    height: auto;         
+    height: auto; 
+    display: block;
     object-fit: contain;    
     border-radius: 0.3rem;
 }
@@ -284,6 +285,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
