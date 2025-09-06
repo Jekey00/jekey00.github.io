@@ -222,11 +222,6 @@ body.dark-mode .back {
         white-space: normal;
     }
 
-    nav {
-        
-    }
-
-
     ul {
         flex-direction: row;
         gap: 10px;
@@ -241,20 +236,16 @@ body.dark-mode .back {
     #darkModeToggle {
         margin-left: 0;
     }
-
-    .search-container {
-        max-width: 90%;
-    }
     
     .card {
         max-width: 95vw;
         padding: 0.5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .card img {
-        width: 99%;
-        height: auto;
+        width: 95%;
+        height: 80%;
     }
 }
 
@@ -286,6 +277,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
