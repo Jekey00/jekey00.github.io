@@ -257,7 +257,7 @@ body.dark-mode .back {
 
 }
 
-/* Kleine Phones (<480px) */
+/* Kleine Phones (480px) */
 @media (max-width: 480px) {
     h1 {
         font-size: 22px;
@@ -274,22 +274,15 @@ body.dark-mode .back {
     }
 
     .card {
-        max-width: 95vw;
-        padding: 0.5rem;
-        margin-top: 1rem;
+        width: 95vw;           
+        margin: 0.5rem auto;   
     }
 
     .card img {
-        width: 100%;
-        height: 90%;
+        width: 100%;           
+        height: auto;
     }
-
-    
-
-
-
-
-
+}
 
 
 
