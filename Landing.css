@@ -224,7 +224,7 @@ body.dark-mode .back {
 
 
     ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         justify-content: center;
     }
@@ -249,7 +249,7 @@ body.dark-mode .back {
     }
 
     .card img {
-        width: 100%;
+        width: 99%;
         height: auto;
     }
 }
@@ -282,6 +282,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
