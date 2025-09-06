@@ -238,15 +238,24 @@ body.dark-mode .back {
     }
     
     .card {
-        max-width: 95vw;
-        padding: 0.2rem;
-        margin-top: 0.5rem;
-    }
+    max-width: 95vw;
+    padding: 0.2rem;      
+    margin-top: 0.5rem;
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;    
+    border-radius: 0.5rem;
+    background: #fff;    
+}
 
-    .card img {
-        width: 95%;
-        height: 80%;
-    }
+.card img {
+    width: 100%;          
+    height: auto;         
+    object-fit: cover;    
+    border-radius: 0.3rem;
+}
+
 }
 
 /* Kleine Phones (<480px) */
@@ -277,6 +286,7 @@ body.dark-mode .back {
     }
 
     
+
 
 
 
