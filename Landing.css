@@ -244,7 +244,13 @@ body.dark-mode .back {
     justify-content: center;
     align-items: center;    
     border-radius: 0.5rem;
-    background: transparent;
+}
+.front {
+  background: transparent;
+}
+
+.back{
+  background: transparent;
 }
 
 .card img {
@@ -284,6 +290,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
