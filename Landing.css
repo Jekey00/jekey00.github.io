@@ -183,7 +183,7 @@ body.dark-mode .back {
 }
 
 .front {
-    background-image: linear-gradient(#012169, #007BFF);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,7 +193,7 @@ body.dark-mode .back {
 }
 
 .back {
-    background-image: linear-gradient(#007BFF, #012169);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -244,14 +244,7 @@ body.dark-mode .back {
     justify-content: center;
     align-items: center;    
     border-radius: 0.5rem;
-}
-.front {
-  background-color: transparent;
-}
 
-.back{
-  background-color: transparent;
-}
 
 .card img {
     width: 100%;          
@@ -290,6 +283,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
