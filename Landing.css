@@ -149,10 +149,10 @@ body.dark-mode {
     color: #f0f0f0;
 }
 /*Dark-Mode Flipcard*/
-body.dark-mode .front,
+/*body.dark-mode .front,
 body.dark-mode .back {
     box-shadow: 10px 10px 10px 0 gray;
-}
+}*/
 
 /*Flipcard Container*/
 .card-container {
@@ -283,6 +283,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
