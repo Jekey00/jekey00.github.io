@@ -246,11 +246,11 @@ body.dark-mode .back {
     border-radius: 0.5rem;
 }
 .front {
-  background: transparent;
+  background-color: transparent;
 }
 
 .back{
-  background: transparent;
+  background-color: transparent;
 }
 
 .card img {
@@ -290,6 +290,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
