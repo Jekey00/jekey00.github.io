@@ -189,7 +189,7 @@ body.dark-mode .back {
     align-items: center;
     color: white;
     transform: rotate(0deg);
-    box-shadow: 10px 10px 10px 0 #000;
+    /*box-shadow: 10px 10px 10px 0 #000;*/
 }
 
 .back {
@@ -199,7 +199,7 @@ body.dark-mode .back {
     align-items: center;
     color: white;
     transform: rotateY(180deg);
-    box-shadow: 10px 10px 10px 0 #000;
+    /*box-shadow: 10px 10px 10px 0 #000;*/
 }
 
 /*Flipcard onclick*/
@@ -283,6 +283,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
