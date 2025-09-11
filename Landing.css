@@ -243,7 +243,8 @@ body.dark-mode .back {
     display: inline-block;       
     justify-content: center;
     align-items: center;    
-    border-radius: 0.5rem;   
+    border-radius: 0.5rem;
+    background: transparent;
 }
 
 .card img {
@@ -283,6 +284,7 @@ body.dark-mode .back {
         height: auto;
     }
 }
+
 
 
 
